@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCypher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dcypher</h1>
+    <h1>Dcypher</h1>
+    <h2>Dcypher</h2>
+    <h3>Dcypher</h3>
+    <h4>Dcypher</h4>
+    <h5>Dcypher</h5>
+    <h6>Dcypher</h6>   <!--Heading Tags-->
+
+    <br>  <!--Break Tag-->
+
+    <p>A paragraph is a series of related sentences developing a central idea, 
+    called the topic. Try to think about paragraphs in terms of thematic unity: 
+    a paragraph is a sentence or a group of sentences that supports one central, 
+    unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+    <!--Paragraph Tag-->
+
+    <a href="https://www.google.co.in/">GO TO GOOGLE</a> <!--Anchor Tag-->
+    
+    <p>Go to GOOGLE--> <a href="https://www.google.co.in/">Click here</a></p>
+    <!--to write text before the link to show the way use a tag inside p tag-->
+    
+    <a href="https://www.w3schools.com/"  target="_blank">We School</a> 
+    <!--to open the link in new tab use target-->
+    
+    <p>My name is RACHIT AGARWAL. <br>I am an ENGINEER.</p> <!--to break the
+    line in paragraph use br tag in p tag-->
+
+    <hr> <!--Horizontal rule (block level)-->
+
+         <!--HTML Entities-->
+    <h1>this is an &lt;hr&gt; tag</h1>
+    <p>HI!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PAPPU</p>
+    
+    <pre>HI!     PAPPU</pre> 
+    <!--Pre tag shows the text inside as it is but smaller than usual-->
+
+    <p>A paragraph is <strong>a series of related sentences</strong> developing 
+    a central idea, called the <small>topic</small>. Try to think about paragraphs 
+    in terms of <span class="hi" id="gs">thematic unity</span>: a paragraph is a 
+    sentence or a <span class="hi">group of sentences</span>that 
+    supports one central,<em>unified idea</em>. 10<sup>2</sup>...log<sub>2</sub>100
+    <marquee behavior="alternate" direction="left">Paragraphs add one idea at a time 
+    to your broader argument.</marquee></p>
+    <!-- <b> and <strong> are used to bold the text. these are inline-->
+    <!-- <i> and <em> to emphasize or to get italics. these are also inline-->
+    <!-- <small> tag reduces the font size of the enclosed text. inline-->
+    <!--<span> tag...inline-->
+    <!-- <sup> and <sub> are used to superscript and subscript. inline-->
+    <!-- <marquee> tag is used for floating the text. block-->
+
+    <p><div id="div1" class="a">A paragraph is a self-contained unit of discourse 
+    in writing dealing with a particular point or idea. A paragraph consists of  
+    one or more sentences.</div></p> 
+
+    <p><div class="a">A paragraph is a self-contained unit of discourse in writing 
+    dealing with a particular point or idea. A paragraph consists of one or more 
+    sentences.</div></p> 
+    <!--<div> tag...block -->
+
+    <!--HTML List-->
+    <!--two types
+    1. ordered
+    2. unordered-->
+
+    <!--UNORDERED LIST <ul>-->
+    <ul type="square">
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li><a href="https://www.w3schools.com/" target="_blank">learn here</a></li>
+    </ul>
+
+    <!--ORDERED LIST-->
+    <ol type="I">
+        <li>how to create an html file</li>
+        <li>make a new file</li>
+        <li>give .html as extension</li>
+    </ol>
+
+    <!--NESTED LIST-->
+    <ul>
+        <li>cats</li>
+        <li>cows</li>
+        <li>dogs
+            <ol>
+                <li>larador</li>
+                <li>pitbull</li>
+                <li>pug</li>
+            </ol>
+        </li>
+    </ul>
+
+    <a href="https://en.wikipedia.org/wiki/MS_Dhoni" target="_blank"><img src="./MSD.jpg" 
+    width="300" 
+    alt="Captain cool"></a>
+    <video src="./sample_video.mp4" poster="./MSD.jpg" controls loop muted width="300"></video>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/dZRWZg1so6s" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+    <hr>
+    <br>
+    
+    <!--Table tag..used to create tables-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>NAME</th> 
+                <th>MONEY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rachit</td>
+                <td>100$</td>
+            </tr>
+            <tr>
+                <td>Raghav</td>
+                <td>80$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total: 180$</td>
+            </tr>
+        </tfoot>
+    </table>   
+    <!--<thead>, <tbody> and <tfoot> tags are used just make the table code
+    presentable for the user -->
+    <!--<tr>tag is used to add a row to table-->
+    <!--<td>tag is used to enter the data in a perticular row-->
+    <!--<th>tag is used to highlight the table heading in bold-->
+    <!--colspan is used to merge the columns..similarly rowspan is used to merge rows-->
+    
+    <br>
+    <hr>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Month</th>
+            <th>Monthly Saving</th>
+            <th>Total Saving</th>
+        </tr>
+        <tr>
+            <td>Jan</td>
+            <td>100$</td>
+            <td rowspan="2">220$</td>
+        </tr>
+        <tr>
+            <td>Feb</td>
+            <td>120$</td>
+        </tr>
+    </table>
+        
+</body>
+</html>
