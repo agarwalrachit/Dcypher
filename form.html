@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <!--Form tag-->
+    <form action=""> 
+
+        <!--input tag used to take input from the user in the form
+        input type can be text, password, etc-->
+        <input type="text" placeholder="type text">
+        <br>
+        <input type="password" placeholder="type password"> <!--characters are hidden in password type-->
+        <br>
+        <input type="color"> <!--can choose color from th color palette-->
+        <br>
+        <input type="email" placeholder="type email"> 
+        <br>
+        <input type="number" max="50" placeholder="enter number"> 
+        <!--placeholder attribute specifies a short hint that describes the expected value-->
+        <!--max attribute specifies the limit to the number type input-->
+
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="">
+
+        <label for="uname">Username : </label>
+        <input type="text" name="usern" id="uname" required>
+        <span>Username : </span>
+        <input type="text" name="username">
+        <!--label tag is used to create a link between the text written within the tag and the input type when we write same thing in "for" attribute of label tag and "id" attribute of input tag....span tag do not connect the text and the input type -->
+        <!--required attribute..input bina bhre submit nhi krne dega -->
+
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">click krne se kuch nhi hoga..krta reh</button>
+        <!--button tag creates button for the form..it's default type is submit-->
+
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>SEARCH ON GOOGLE</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>SEARCH ON YT</button>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="">
+        <p>CHOOSE YOUR SIZE</p>
+        <input type="checkbox" name="size" id="small" value="smallsize">
+        <label for="small">SMALL</label>
+
+        <input type="checkbox" name="size" id="medium" value="mediumsize">
+        <label for="medium">MEDIUM</label>
+
+        <input type="checkbox" name="size" id="large" value="largesize">
+        <label for="large">LARGE</label>
+        <br>
+        <br>
+        <button>YES</button>
+    </form>
+    <!--checkbox type allows to select multiple choices by the user..id and value attribute specifies the unique identity of the selected option-->
+    <!--label tag is must in this type of input-->
+    <br>
+    <hr>
+    <br>
+    <form action="">
+        <p>CHOOSE YOUR SIZE</p>
+        <input type="radio" name="size" id="small" value="smallsize">
+        <label for="small">SMALL</label>
+    
+        <input type="radio" name="size" id="medium" value="mediumsize">
+        <label for="medium">MEDIUM</label>
+    
+        <input type="radio" name="size" id="large" value="largesize">
+        <label for="large">LARGE</label>
+        <br>
+        <br>
+        <button>PROCEED TO CART</button>
+    </form>
+    <!--radio type allows to choose one among the options provided..for the same category of options name of every input should be same-->
+    <!--label tag is must in these this of input-->
+    
+</body>
+</html>
